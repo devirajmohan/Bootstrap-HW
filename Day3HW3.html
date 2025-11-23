@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Progress Dashboard</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+    #center{
+        margin: auto;
+        text-align: center;
+        
+    }
+</style>
+</head>
+<body>
+    <div class = "container mt-5">
+        <nav>
+            <ul class = "breadcrumb">
+                <li class = "breadcrumb-item"><a href = "https://openedx.org/">Home</a></li>
+                <li class = "breadcrumb-item"><a href = "https://www.coursera.org/browse/computer-science">Courses</a></li>
+                <li class = "breadcrumb-item active" aria current="page">Web Development</li>
+            </ul>
+             </nav>
+
+        <div id = "center">
+            <h1 class="display-4">Web Development Course <span class = "badge badge-info">New</span></h1>
+        </div><br><br>
+
+         <p>HTML</p>
+        <div class = "progress" style = "height: 30px;">
+            <div class="progress-bar bg-success progress-bar-striped" style="width:100%;height: 30px;">100%</div>
+        </div><br><br>
+
+        <p>CSS</p>
+         <div class = "progress" style = "height: 30px;">
+        <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:75%;height: 30px;">75%</div>
+       </div><br><br>
+
+      <p>JavaScript</p>
+      <div  class = "progress" style = "height: 30px;">
+        <div class="progress-bar bg-warning" style="width:50%;height: 30px;">50%</div>
+       </div><br><br>
+
+       <p>Bootstrap</p>
+      <div class = "progress" style = "height: 30px;">
+        <div class="progress-bar bg-danger" style="width:25%;height: 30px;">25%</div>
+       </div><br><br>
+
+        <div id = "center" class="mb-4">
+            <button type = "button" class="btn btn-info btn-lg">Start</button>
+             <button type = "button" class="btn btn-outline-secondary btn-lg">Pause</button>
+              <button type = "button" class="btn btn-outline-success btn-lg">Reset</button>
+        </div>
+
+    </div>
+  
+   
+        <ul class = "pagination justify-content-center">
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+         
+        </ul>
+  
+    </div>
+   
+</body>
+</html>
